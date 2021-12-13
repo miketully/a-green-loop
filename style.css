@@ -1,0 +1,125 @@
+ 
+ 
+ /* Styles */
+
+* {
+
+  background-color: white;
+  
+}
+
+
+::-moz-selection { 
+    background: green;
+    color: white;
+  }
+
+  
+::selection { 
+    background: green;
+    color: white;
+ }
+
+
+
+
+
+.container {
+
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.3em;
+  color: black;
+  text-align:left;
+
+  margin-right: 25vw;
+  margin-left: 25vw;
+  margin-top: 3vh;
+  margin-bottom: 10vh
+ }
+
+
+p {
+  text-align:left;
+  margin-top:0em;
+}
+
+p.title {
+	margin-top:3em;
+  margin-bottom:.75em;
+	font-family: Optima, monospace;
+  letter-spacing: 1px;
+  	text-align:center;
+  	font-size: 1em;
+  	line-height: 1.25em;
+}
+
+.title-inline {
+	font-family: Optima, monospace;
+  letter-spacing: 1px;
+  	text-align:center;
+  	font-size: 1em;
+  	line-height: 1.25em;
+}
+
+p.script {
+	margin-top:3em;
+  margin-bottom:.75em;
+	font-family: Courier New, monospace;
+  	text-align:center;
+  	font-size: .75em;
+  	line-height: 1.25em;
+}
+
+p.buttons {
+	margin-top:1em;
+  margin-bottom:.75em;
+	font-family: Courier New, monospace;
+  	text-align:center;
+  	font-size: .75em;
+  	line-height: 1.25em;
+}
+
+
+p.buttons a {
+	font-family: Courier New, monospace;
+  	text-align:center;
+    color: black;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+
+p.buttons a:hover {
+	font-family: Courier New, monospace;
+  	text-align:center;
+    color: green;
+}
+
+
+
+
+
+
+  /* Mobile */
+
+ @media only screen and (max-width: 900px) {
+  
+
+  .container {
+
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.3em;
+  color:black;
+
+  margin-right: 2vw;
+  margin-left: 2vw;
+  margin-top: 2vh;
+  }
+
+   
+
+}
+
