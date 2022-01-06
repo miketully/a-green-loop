@@ -38,6 +38,21 @@
   margin-bottom: 10vh
  }
 
+ .container-wide {
+
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.3em;
+  color: black;
+  text-align:left;
+
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 10vh
+
+ }
+
 
 p {
   text-align:left;
@@ -97,6 +112,12 @@ p.buttons a:hover {
     color: green;
 }
 
+
+img {
+  max-width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 
 
